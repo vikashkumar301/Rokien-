@@ -45,6 +45,8 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.2s;
+      text-decoration: none;
+      color: inherit;
     }
     .card:hover {
       transform: translateY(-5px);
@@ -87,48 +89,48 @@
     <a href="#">Goggles</a>
   </nav>
   <div class="container">
-    <div class="card">
+    <a class="card" href="https://rokien.myshopify.com/products/modern-blue-tee" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=T-Shirt" alt="T-Shirt">
       <div class="card-content">
         <h3>Modern Blue Tee</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
-    <div class="card">
+    </a>
+    <a class="card" href="https://rokien.myshopify.com/products/calm-vibes-mug" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=Mug" alt="Mug">
       <div class="card-content">
         <h3>Calm Vibes Mug</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
-    <div class="card">
+    </a>
+    <a class="card" href="https://rokien.myshopify.com/products/abstract-phone-cover" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=Phone+Cover" alt="Phone Cover">
       <div class="card-content">
         <h3>Abstract Phone Cover</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
-    <div class="card">
+    </a>
+    <a class="card" href="https://rokien.myshopify.com/products/urban-utility-bag" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=Bag" alt="Bag">
       <div class="card-content">
         <h3>Urban Utility Bag</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
-    <div class="card">
+    </a>
+    <a class="card" href="https://rokien.myshopify.com/products/rakhi-special-combo" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=Raksha+Bandhan" alt="Raksha Bandhan">
       <div class="card-content">
         <h3>Rakhi Special Combo</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
-    <div class="card">
+    </a>
+    <a class="card" href="https://rokien.myshopify.com/products/summer-style-goggles" target="_blank">
       <img src="https://via.placeholder.com/300x200?text=Goggles" alt="Goggles">
       <div class="card-content">
         <h3>Summer Style Goggles</h3>
-        <button>Add to Cart</button>
+        <button>Buy Now</button>
       </div>
-    </div>
+    </a>
   </div>
 </body>
 </html>
